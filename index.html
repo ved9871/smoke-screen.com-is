@@ -21,8 +21,8 @@
     "areaServed": ["IS"],
     "contactPoint": {
       "@type": "ContactPoint",
-      "email": "reykvorn@reykvorn.is",
-      "telephone": "+354-588-1705",
+      "email": "sophie@smoke-screen.co.uk",
+      "telephone": "+44 1205 821 111",
       "contactType": "customer service"
     }
   }
@@ -37,6 +37,14 @@
     .reveal-d1 { transition-delay: 0.1s; }
     .reveal-d2 { transition-delay: 0.2s; }
     .reveal-d3 { transition-delay: 0.3s; }
+    /* Fix card text visibility */
+    .why-card h3 { color: #ffffff; }
+    .why-card p { color: rgba(255,255,255,0.72); }
+    .section-light .why-card h3 { color: #ffffff !important; }
+    .section-light .why-card p { color: rgba(255,255,255,0.72) !important; }
+    /* Clean icon style — no emoji, just SVG */
+    .why-icon { background: transparent !important; font-size: 0; display: flex; align-items: center; justify-content: flex-start; margin-bottom: 18px; width: 44px; height: 44px; border-radius: 10px; border: 1px solid rgba(191,73,27,0.35); padding: 8px; }
+    .why-icon svg { width: 28px; height: 28px; }
   </style>
 </head>
 <body>
@@ -120,11 +128,10 @@
       <div class="step-light reveal reveal-d2">
         <div class="step-num">2</div>
         <h3>Reykurinn skýst út straks</h3>
-        <p>Einingin fer í gang. Þéttur reykur fyllir rýmið á nokkrum sekúndum. Á 30 sekúndum er sýnileiki núll. Reykurinn er skaðlaus, vottaður þinn — allt varið.</p>
+        <p>Einingin fer í gang. Þéttur reykur fyllir rýmið á nokkrum sekúndum. Á 30 sekúndum er sýnileiki núll. Reykurinn er skaðlaus, vottaður eiturefnalaus, IEC staðall, skilur ekkert eftir sig.</p>
       </div>
-    </div>
-    <div style="text-align:center;margin-top:40px;" class="reveal">
-      <a href="about.htm-num">3</div>
+      <div class="step-light reveal reveal-d3">
+        <div class="step-num">3</div>
         <h3>Þjófurinn getur ekkert gert</h3>
         <p>Sér ekki, getur ekki stolið. Þeir flýja strax eða eru handteknir þegar lögreglan mætir. Birgðir þínar, peningar þínir, búnaður þinn — allt varið.</p>
       </div>
@@ -169,38 +176,27 @@
     </div>
     <div class="why-grid">
       <div class="why-card reveal reveal-d1">
-        <div class="why-icon">⚡</div>
+        <div class="why-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#BF491B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
         <h3>Fer í gang um leið og þörf er á</h3>
         <p>Viðvörunarkerfi þitt fer í gang, reykurinn skýst út. Núll mannleg seinkun. Rýmið er ófæranlegt áður en innbrotaþjófurinn getur tekið eitt skref í átt að verðmæti.</p>
       </div>
       <div class="why-card reveal reveal-d2">
-        <div class="why-icon">🌍</div>
+        <div class="why-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#BF491B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
         <h3>30 ár. 50 lönd.</h3>
         <p>Verslanir, vöruhús, skólar, skartgripasalar, heimili — þegar Smoke Screen fer í gang lýkur ráninu. Yfir 30 ára reynsla í að stöðva glæpi, á öllum heimsálfum.</p>
       </div>
       <div class="why-card reveal reveal-d3">
-        <div class="why-icon">🔌</div>
+        <div class="why-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#BF491B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8H6a2 2 0 0 0-2 2v3a6 6 0 0 0 6 6h4a6 6 0 0 0 6-6v-3a2 2 0 0 0-2-2z"/></svg></div>
         <h3>Engin endurtenging. Engar vandræður.</h3>
         <p>Viðvörunarkerfi þitt helst nákvæmlega eins og það er. Við bætum Smoke Screen við hliðina á því. Enginn rafvirkjamaður, ekkert nýtt stjórnborð. Flestar uppsetningar eru klárar á einni heimsókn.</p>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ===================== CASE STUDY ===================== -->
-<section class="section" id="case-study">
-  <div class="container">
-    <div class="section-title reveal">
-      <div class="label">Dæmisaga · Öryggi skartgripasölu</div>
-      <h2>Þú stelur ekki því sem þú sérð ekki.</h2>
-      <p>Hvernig skartgripasali stöðvaði endurtekin glæpi með Smoke Screen öryggisreyk — engin tilvik síðan uppsetning.</p>
-    </div>
-
-    <div class="reveal" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:grid;grid-template-columns:1fr 1fr;gap:0;">
+     <div class="reveal" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:grid;grid-template-columns:1fr 1fr;gap:0;">
       <div style="background:linear-gradient(135deg,#1a0d20 0%,#2a1f3d 100%);padding:48px;display:flex;flex-direction:column;justify-content:center;">
         <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--red);margin-bottom:12px;">Ontario, Kanada · Ágúst 2025</div>
         <h3 style="font-size:1.6rem;line-height:1.25;margin-bottom:16px;">Ancaster Skartgripasala: Vopnað rán stöðvað áður en það byrjar</h3>
         <p style="color:var(--muted);line-height:1.6;margin-bottom:20px;">Eftir vopnað rán seint árið 2024 samdi Ancaster Jewellers við Connect and Protect um að setja upp Smoke Screen reykkerfi. Neyðarhnapp ýtt — verslunin fyllist af þéttum, eiturefnalausum reyk á sekúndum. Innbrotaþjófar sjá ekki, geta ekki fundið leiðina, geta ekki stolið.</p>
+        <blockquote style="border-left:3px solid var(--red);padding-left:16px;margin:0 0 28px;font-style:italic;color:var(--white);font-size:0.95rem;">"Þú sérð ekki höndina fyrir framan þig. Þannig getur þú ekki stolið því sem þú sérð ekki."<br/><span style="font-size:0 reykkerfi. Neyðarhnapp ýtt — verslunin fyllist af þéttum, eiturefnalausum reyk á sekúndum. Innbrotaþjófar sjá ekki, geta ekki fundið leiðina, geta ekki stolið.</p>
         <blockquote style="border-left:3px solid var(--red);padding-left:16px;margin:0 0 28px;font-style:italic;color:var(--white);font-size:0.95rem;">"Þú sérð ekki höndina fyrir framan þig. Þannig getur þú ekki stolið því sem þú sérð ekki."<br/><span style="font-size:0.8rem;color:var(--muted);font-style:normal;">— Jean-Pierre Verbunt, eigandi, Ancaster Jewellers</span></blockquote>
         <div style="display:flex;gap:24px;margin-bottom:28px;flex-wrap:wrap;">
           <div><div style="font-size:1.5rem;font-weight:800;color:var(--white);">0</div><div style="font-size:0.75rem;color:var(--muted);">Eftirfylgnitilvik síðan uppsetning</div></div>
@@ -231,17 +227,17 @@
     </div>
     <div class="why-grid">
       <div class="why-card reveal reveal-d1" style="background:var(--bg-card);">
-        <div class="why-icon">🏪</div>
+        <div class="why-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#BF491B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7l1-4h18l1 4H2z"/><path d="M6 21V11"/><path d="M18 21V11"/><path d="M2 7v4a5 5 0 0 0 5-4M12 7a5 5 0 0 0 5 4M7 11h10v10H7z"/></svg></div>
         <h3>Verslanir og kauphöll</h3>
         <p>Þar sem hver mínúta skiptir máli. Reykurinn fyllir rýmið á 15–20 sekúndum og blindar innbrotaþjófana alveg.</p>
       </div>
       <div class="why-card reveal reveal-d2" style="background:var(--bg-card);">
-        <div class="why-icon">🏭</div>
+        <div class="why-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#BF491B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="1"/><path d="M16 7V4a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg></div>
         <h3>Vöruhús og lager</h3>
         <p>Stór rými með dýrum búnaði. Smoke Screen hentar jafnt stórum sem smáum rýmum og verndar allt sem geymt er.</p>
       </div>
       <div class="why-card reveal reveal-d3" style="background:var(--bg-card);">
-        <div class="why-icon">🏠</div>
+        <div class="why-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#BF491B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
         <h3>Heimili og sumarbústaðir</h3>
         <p>Einföld, örugg og áhrifarík lausn fyrir heimili. Virkar í raunverulegum aðstæðum þegar á reynir mest.</p>
       </div>
@@ -259,7 +255,7 @@
     </div>
     <div style="max-width:700px; margin: 0 auto;">
       <div class="contact-form-section reveal">
-        <form action="https://formsubmit.co/reykvorn@reykvorn.is" method="POST" novalidate>
+        <form action="https://formsubmit.co/sophie@smoke-screen.co.uk" method="POST" novalidate>
           <input type="hidden" name="_subject" value="Ný Smoke Screen fyrirspurn, Ísland" />
           <input type="hidden" name="_cc" value="sophie@smoke-screen.co.uk" />
           <input type="hidden" name="_next" value="https://smoke-screen.com/is/thank-you.html" />
@@ -323,8 +319,8 @@
           <h4>Reykvörn, Ísland</h4>
           <p>
             Beinn tengiliður þinn fyrir allar íslenskar fyrirspurnir, uppsetningar og þjónustu.<br/>
-            <a href="mailto:reykvorn@reykvorn.is">reykvorn@reykvorn.is</a> &nbsp;·&nbsp;
-            <a href="tel:+3545881705">588-1705</a>
+            <a href="mailto:sophie@smoke-screen.co.uk">sophie@smoke-screen.co.uk</a> &nbsp;·&nbsp;
+            <a href="tel:+441205821111">+44 1205 821 111</a>
           </p>
         </div>
       </div>
@@ -399,8 +395,8 @@
       <div class="footer-col">
         <h5>Hafa samband</h5>
         <ul>
-          <li><a href="mailto:reykvorn@reykvorn.is">reykvorn@reykvorn.is</a></li>
-          <li><a href="tel:+3545881705">588-1705</a></li>
+          <li><a href="mailto:sophie@smoke-screen.co.uk">sophie@smoke-screen.co.uk</a></li>
+          <li><a href="tel:+441205821111">+44 1205 821 111</a></li>
           <li><a href="mailto:sophie@smoke-screen.co.uk">sophie@smoke-screen.co.uk</a></li>
         </ul>
       </div>
