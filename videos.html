@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Öryggisreyksmyndbönd | Smoke Screen Ísland</title>
+  <meta name="description" content="Horfðu á Smoke Screen öryggisreyk í beinni. Raunverulegar uppsetningar í verslunum, vöruhúsum, heimilum og fleira. Sjáðu hvers vegna fyrirtæki um allt Ísland treysta okkur." />
+  <link rel="canonical" href="https://smoke-screen.com/is/videos.html" />
+  <meta property="og:title" content="Öryggisreyksmyndbönd | Smoke Screen Ísland" />
+  <meta property="og:description" content="Horfðu á Smoke Screen öryggisreykskerfi í rekstri í verslunum, vöruhúsum og íbúðarumhverfi." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://us.smoke-screen.com/css/styles.css" />
+  <style>
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.revealed { opacity: 1; transform: translateY(0); }
+    .video-modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.92); z-index:2000; align-items:center; justify-content:center; padding:24px; }
+    .video-modal.active { display:flex; }
+    .video-modal-inner { position:relative; width:100%; max-width:900px; aspect-ratio:16/9; background:#000; border-radius:var(--radius); overflow:hidden; }
+    .video-modal-inner iframe { width:100%; height:100%; border:0; }
+    .modal-close { position:absolute; top:-44px; right:0; background:none; border:none; color:#fff; font-size:1.5rem; cursor:pointer; padding:4px 8px; opacity:0.7; transition:opacity 0.2s; }
+    .modal-close:hover { opacity:1; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="main-nav" aria-label="Aðalvalmynd">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Smoke Screen Heim">
+      <svg viewBox="0 0 1451.04 556.87" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FFFFFF" d="M34.7,173.49a114.91,114.91,0,0,0,81.22,33.57c22.5,0,36.23-9.54,36.23-21.74,0-14.49-16.4-20.21-43.47-25.93C66.73,151,8,140.33,8,80.08,8,37.37,44.23.38,109.44.38c40.8,0,76.26,12.2,103.34,35.45L176.93,82.74c-21.36-17.54-49.19-26.31-71.69-26.31-21.73,0-30.12,8.77-30.12,19.83,0,13.34,15.64,17.92,43.84,23.26,42,8.76,99.92,21,99.92,78.55,0,51.1-37.75,85-106,85-51.47,0-87.31-16-112.86-40.43Z M472.48,86.94,408,258.53h-29L315,86.94V258.53H249.4V4.19h91.13l53,144.14L446.93,4.19h91.14V258.53H472.48Z M707,0c77.79,0,135.75,54.15,135.75,131.55S784.81,263.11,707,263.11,570.9,209,570.9,131.55,629.23,0,707,0Zm0,58c-42.33,0-69.39,32-69.39,73.6,0,41.18,27.06,73.59,69.39,73.59,42,0,69-32.41,69-73.59C776,90,749,58,707,58Z M958.73,162.81l-17.16,21.36v74.36H876V4.19h65.59V108.66L1019.74,4.19h80.84l-98.76,119,104.1,135.37h-80.46Z M1125.39,4.19h186.47V59.48H1191V101.8h118.2v55.67H1191v45.77h120.88v55.29H1125.39Z M34.7,467.26a114.94,114.94,0,0,0,81.22,33.56c22.5,0,36.23-9.54,36.23-21.74,0-14.49-16.4-20.21-43.47-25.93C66.73,444.76,8,434.09,8,373.84c0-42.71,36.23-79.7,101.44-79.7,40.8,0,76.26,12.21,103.34,35.47L176.93,376.5c-21.36-17.54-49.19-26.3-71.69-26.3C83.51,350.2,75.12,359,75.12,370c0,13.34,15.64,17.92,43.84,23.26,42,8.77,99.92,21,99.92,78.56,0,51.09-37.75,85-106,85-51.47,0-87.31-16-112.86-40.42Z M236.43,425.31c0-78.55,59.49-131.55,135.76-131.55,63.3,0,96.09,34.69,112.87,68.26L428.63,388.7c-8.4-20.2-30.13-37-56.44-37-39.66,0-69,32-69,73.59s29.36,73.59,69,73.59c26.31,0,48-16.78,56.44-37l56.43,26.7c-16.4,32.79-49.57,68.25-112.87,68.25C295.92,556.87,236.43,503.48,236.43,425.31Z M612.45,466.12H578.89v86.17h-65.6V298H640.66c56.44,0,88.47,37.37,88.47,84.65,0,44.23-27.08,67.88-50.71,76.27l51.85,93.42H655.16Zm18.3-112.88H578.89v57.21h51.86c17.16,0,31.65-11.07,31.65-28.61S647.91,353.24,630.75,353.24Z M765.38,298H951.85v55.29H831v42.33H949.18v55.67H831V497H951.85v55.29H765.38Z M990,298h186.47v55.29H1055.59v42.33H1173.8v55.67H1055.59V497h120.88v55.29H990Z M1280.21,398.62V552.29h-65.59V298h67.5l103,146.43V298h66V552.29h-63.3Z"/></svg>
+      <div class="nav-logo-text"><span class="region">Ísland</span></div>
+    </a>
+    <div class="nav-links" role="list">
+      <a href="index.html" role="listitem">Heim</a>
+      <a href="products.html" role="listitem">Vörur</a>
+      <a href="videos.html" class="active" role="listitem">Myndbönd</a>
+      <a href="about.html" role="listitem">Um okkur</a>
+      <a href="contact.html" role="listitem">Hafðu samband</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Fá frítt tilboð</a>
+    <button class="hamburger" id="hamburger" aria-label="Opna valmynd" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+  <a href="index.html">Heim</a>
+  <a href="products.html">Vörur</a>
+  <a href="videos.html">Myndbönd</a>
+  <a href="about.html">Um okkur</a>
+  <a href="contact.html">Hafðu samband</a>
+  <a href="contact.html" class="btn btn-primary">Fá frítt tilboð</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <div class="label">Myndbandssafn</div>
+    <h1>Horfðu á Smoke Screen<br/>í beinni</h1>
+    <p>Raunverulegar uppsetningar, sýnikennsla á líftíma og vitnisburður viðskiptavina. Sjáðu nákvæmlega hvernig öryggisreykur verndar fyrirtæki og heimili.</p>
+  </div>
+</div>
+
+<!-- VIDEOS -->
+<section class="section">
+  <div clas="container">
+    <!-- Featured Video -->
+    <div class="section-title reveal">
+      <div class="label">Dæmigert myndband</div>
+      <h2>6 ræningjar. 40 sekúndur. Ekkert stolicp.</h2>
+      <p>Raunverulegt myndavélaupptaka ús ímabúð í Napólí, Ítalíu. Sex innbrotaþjófar, ein Smoke Screen eining. Þeir fóru með tómar hendur.</p>
+    </div>
+    <div style="border-radius:var(--radius); overflow:hidden; aspect-ratio:16/9; margin-bottom:60px; background:var(--bg-mid);" class="reveal">
+      <iframe
+        src="https://www.youtube.com/embed/y1G5q7oq7ozTVw?rel=0"
+        title="6 ræningjar gegn Smoke Screen, Napólí símabúð myndavélaupptaka"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="width:100%; height:100%; border:0;">
+      </iframe>
+    </div>
+
+    <!-- Video grid -->
+    <div class="video-page-grid">
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/y1G5q7ozTVw?rel=0" title="6 ræningjar gegn Smoke Screen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>6 ræningjar gegn Smoke Screen, Napólí</h3>
+          <p>Sex innbrotaþjófar ráðast á símabúð í Napólí, Ítalíu. Reykurinn fer í gang samstundis. Á innan við 40 sekúndum eru þeir horfnir — með tómar hendur. Raunverulegar myndavélaupptökur.</p>
+        </div>
+      </div>
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/WzbusnzDJv0?rel=0" title="Öryggisreykur vöruhússýning, 3x Sentinel S70" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>Vöruhús reykssýning, 3x Sentinel S70</h3>
+          <p>Þrjár S70 einingar settar upp samtímis í stóru vöruhúsi. Sjá rýmið fara frá skýru í núll sýnileika á sekúndum. Þetta er hvað glæpamenn ganga inn í.</p>
+        </div>
+      </div>
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/wQvnkrfxoxI?rel=0" title="Smoke Screen S150 og S55 í opnum skrifstofurými" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>Opið skrifstofurými, S150 &amp; S55 sýning</h3>
+          <p>Tvær einingar sem vinna saman í stóru opnu skrifstofurými. Frá viðvörunarræsi til fullnægjandi þekju á undir 45 sekúndum.</p>
+        </div>
+      </div>
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/6rupcFq-7Z0?rel=0" title="Smoke Screen öryggisreykur í beinni" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>Smoke Screen í beinni</h3>
+          <p>Öryggisreykur settur í raunverulegt umhverfi — sjá hversu fljótt kerfið fyllir rýmið og stoppar innbrotaþjófa á hlaupi.</p>
+        </div>
+      </div>
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/OWlQJVcrMJM?rel=0" title="Smoke Screen öryggisreykssýning" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>Lifandi öryggisreykssýning</h3>
+          <p>Lifandi sýning á reykjakerfistækni Smoke Screen — frá viðvörunarræsi til fullnægjandi þekju, sem sýnir nákvæmlega hvað glæpamenn standa frammi fyrir þegar kerfið er sett í gang.</p>
+        </div>
+      </div>
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/PfJ9jPBzR0M?rel=0" title="Smoke Screen verndunar sýning" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>Smoke Screen verndunar sýning</h3>
+          <p>Sjáðu hvernig Smoke Screen skapar samstundis líkamlega hindrun sem gerir innbrotaþjófum ómögulegt að finna verðmæti eða ferðast um varið rými.</p>
+        </div>
+      </div>
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/rE6w_j6cSUs?rel=0" title="Smoke Screen landbúnaðaröryggi, dráttarvélavernd" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>Dráttarvél og landbúnaðaröryggi</h3>
+          <p>Smoke Screen verndar landbúnaðarfarartæki og búnað gegn þjófnaði. Öryggisreykur settur í gang á búvélar og dráttarvélar, stöðvar drekaþjófnað á hlaupi.</p>
+        </div>
+      </div>
+
+      <div class="video-page-card reveal">
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/Q-0bwaOuuKI?rel=0" title="Smoke Screen öryggisreykskerfi yfirlit" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="info">
+          <h3>Öryggisreykskerfi yfirlit</h3>
+          <p>Heildstætt yfirlit yfir Smoke Screen öryggisreykskerfi — hvernig það virkar, hversu fljótt það setur sig í gang og hvers vegna fyrirtæki um allt Ísland og heiminn treysta því til að vernda húsnæðið.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div>
+        <h2>Séð nóg? Við skulum tala.</h2>
+        <p>Teymi okkar á Íslandi mun hjálpa þér að finna rétta kerfið fyrir eignina þína.</p>
+      </div>
+      <a href="contact.html" class="btn btn-white btn-lg">Fáðu frítt tilboð →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg viewBox="0 0 1451.04 556.87" xmlns="http://www.w3.org/2000/svg" style="height:26px;width:auto;"><path fill="#FFFFFF" d="M34.7,173.49a114.91,114.91,0,0,0,81.22,33.57c22.5,0,36.23-9.54,36.23-21.74,0-14.49-16.4-20.21-43.47-25.93C66.73,151,8,140.33,8,80.08,8,37.37,44.23.38,109.44.38c40.8,0,76.26,12.2,103.34,35.45L176.93,82.74c-21.36-17.54-49.19-26.31-71.69-26.31-21.73,0-30.12,8.77-30.12,19.83,0,13.34,15.64,17.92,43.84,23.26,42,8.76,99.92,21,99.92,78.55,0,51.1-37.75,85-106,85-51.47,0-87.31-16-112.86-40.43Z M472.48,86.94,408,258.53h-29L315,86.94V258.53H249.4V4.19h91.13l53,144.14L446.93,4.19h91.14V258.53H472.48Z M707,0c77.79,0,135.75,54.15,135.75,131.55S784.81,263.11,707,263.11,570.9,209,570.9,131.55,629.23,0,707,0Zm0,58c-42.33,0,69.39,32-69.39,73.6,0,41.18,27.06,73.59,69.39,73.59,42,0,69-32.41,69-73.59C776,90,749,58,707,58Z M958.73,162.81l-17.16,21.36v74.36H876V4.19h65.59V108.66L1019.74,4.19h80.84l-98.76,119,104.1,135.37h-80.46Z M1125.39,4.19h186.47V59.48H1191V101.8h118.2v55.67H1191v45.77h120.88v55.29H1125.39Z M34.7,467.26a114.94,114.94,0,0,0,81.22,33.56c22.5,0,36.23-9.54,36.23-21.74,0-14.49-16.4-20.21-43.47-25.93C66.73,444.76,8,434.09,8,373.84c0-42.71,36.23-79.7,101.44-79.7,40.8,0,76.26,12.21,103.34,35.47L176.93,376.5c-21.36-17.54-49.19-26.3-71.69-26.3C83.51,350.2,75.12,359,75.12,370c0,13.34,15.64,17.92,43.84,23.26,42,8.77,99.92,21,99.92,78.56,0,51.09-37.75,85-106,85-51.47,0-87.31-16-112.86-40.42Z M236.43,425.31c0-78.55,59.49-131.55,135.76-131.55,63.3,0,96.09,34.69,112.87,68.26L428.63,388.7c-8.4-20.2-30.13-37-56.44-37-39.66,0-69,32-69,73.59s29.36,73.59,69,73.59c26.31,0,48-16.78,56.44-37l56.43,26.7c-16.4,32.79-49.57,68.25-112.87,68.25C295.92,556.87,236.43,503.48,236.43,425.31Z M612.45,466.12H578.89v86.17h-65.6V298H640.66c56.44,0,88.47,37.37,88.47,84.65,0,44.23-27.08,67.88-50.71,76.27l51.85,93.42H655.16Zm18.3-112.88H578.89v57.21h51.86c17.16,0,31.65-11.07,31.65-28.61S647.91,353.24,630.75,353.24Z M765.38,298H951.85v55.29H831v42.33H949.18v55.67H831V497H951.85v55.29H765.38Z M990,298h186.47v55.29H1055.59v42.33H1173.8v55.67H1055.59V497h120.88v55.29H990Z M1280.21,398.62V552.29h-65.59V298h67.5l103,146.43V298h66V552.29h-63.3Z"/></svg>
+        </div>
+        <p>Fagleg öryggisreykskerfi sem vernda heimili og fyrirtæki um allt Ísland.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Vörur</h5>
+        <ul>
+          <li><a href="products.html#sentinel-go">Sentinel Go</a></li>
+          <li><a href="products.html#sentinel-s70">Sentinel S70</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Fyrirtæki</h5>
+        <ul>
+          <li><a href="about.html">Um okkur</a></li>
+          <li><a href="videos.html">Myndbönd</a></li>
+          <li><a href="contact.html">Hafðu samband</a></li>
+          <li><a href="https://www.smoke-screen.com" target="_blank" rel="noopener">Alþjóðleg síða &#x2197;</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Samband</h5>
+        <ul>
+          <li><a href="mailto:sophie@smoke-screen.co.uk">sophie@smoke-screen.co.uk</a></li>
+          <li><a href="tel:+441205821111">+44 1205 821 111</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Smoke Screen Ísland. Yekktur umboðssali Smoke Screen öryggisvara.</p>
+      <div style="display:flex;gap:12px;align-items:center;font-size:0.75rem;color:var(--muted);">
+        <span>🇮🇸 Ísland</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://us.smoke-screen.com/js/main.js"></script>
+</body>
+</html>
